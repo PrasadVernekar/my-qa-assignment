@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Playwright Automation Framework
 
 ## Overview
@@ -410,3 +411,6 @@ The workflow performs:
 
 **Prasad Vernekar**
 QA Automation Engineer
+=======
+# my-qa-assignment
+>>>>>>> 5b34428a343abc87bae94c56a2cd9b9d59a5b6fd
