@@ -16,6 +16,21 @@ export const test = base.extend({
   await use(new CheckoutPage (page));
 },
 
+api: async ({}, use) => {
+  const api = await request.newContext({
+    baseURL: 'https://reqres.in',
+    extraHTTPHeaders: {
+      'x-api-key': 'free_user_3FiCAEoLcd0m6LycyT3n9sdwvud'
+    }
+  });
+
+
+
+
+  await use(api);
+  await api.dispose();
+}
+
 
  
 
