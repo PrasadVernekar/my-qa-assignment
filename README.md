@@ -31,9 +31,7 @@ The framework supports:
 ```
 my-qa-assignment
 │
-├── .github/
-│   └── workflows/
-│       └── playwright.yml
+|
 │
 ├── node_modules/
 │
